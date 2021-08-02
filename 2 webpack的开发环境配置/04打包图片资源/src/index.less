@@ -1,0 +1,16 @@
+.box(@width,@height,@path){
+    width: @width;
+    height: @height;
+    background: url(@path) 100% 100% no-repeat ;
+    
+}
+#box1{
+    .box(100px, 100px, './vue.jpg');
+    
+}
+#box2{
+    .box(200px, 200px, './react.png');
+}
+#box3{
+    .box(300px, 300px, './angular.jpg');
+}
