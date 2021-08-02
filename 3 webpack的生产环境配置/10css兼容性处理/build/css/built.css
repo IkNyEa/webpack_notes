@@ -1,0 +1,20 @@
+/*!**************************************************************************************************************************************************************!*\
+  !*** css ../node_modules/_css-loader@6.2.0@css-loader/dist/cjs.js!../node_modules/_postcss-loader@6.1.1@postcss-loader/dist/cjs.js??postcss!./src/css/a.css ***!
+  \**************************************************************************************************************************************************************/
+#box1 {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    display: flex;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    transition: width 2s;
+}
+/*!**************************************************************************************************************************************************************!*\
+  !*** css ../node_modules/_css-loader@6.2.0@css-loader/dist/cjs.js!../node_modules/_postcss-loader@6.1.1@postcss-loader/dist/cjs.js??postcss!./src/css/b.css ***!
+  \**************************************************************************************************************************************************************/
+#box2 {
+  width: 200px;
+  height: 200px;
+  background-color: deeppink;
+}
